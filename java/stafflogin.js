@@ -5,7 +5,7 @@ document.getElementById('loginForm').addEventListener ('submit', function(event)
     const password = document.getElementById('password').value;
 
     // Simulate a login check (replace with actual authentication logic)
-    if (username === 'staff' && password === 'password123') {
+    if (username === 'NYCRP_Management' && password === '2025NYCRP_ManageMEnT') {
         alert('Login successful!'); // Redirect to staff dashboard or another page
         window.location.href = 'checking.html'; // Example redirect
     } else {
