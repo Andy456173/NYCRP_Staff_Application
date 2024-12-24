@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+}
+
+.application {
+    background-color: #fff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0  0 5px rgba(0, 0, 0, 0.1);
+}
+
+.application h3 {
+    margin: 0;
+    color: #333;
+}
+
+.application p {
+    margin: 5px 0;
+}
+
+.application button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.application button:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.application button:active {
+    background-color: #0056b3;
+}
+
+.application span {
+    font-weight: bold;
+}
